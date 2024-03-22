@@ -249,7 +249,7 @@ const socials = [
   {
     name: "github",
     src: githubContact,
-    link: "https://github.com/Faizahel",
+    link: "https://github.com/faizaheljoasa",
   },
 ];
 
