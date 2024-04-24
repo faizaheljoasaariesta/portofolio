@@ -21,11 +21,11 @@ const HeroContent = () => {
           </h1>
         </div>
 
-        <div className="flex flex-col gap-6 mt-6 text-3xl sm:text-6xl font-bold text-white w-auto h-auto">
+        <div className="flex flex-col gap-6 mt-6 text-2xl sm:text-6xl font-bold text-white w-auto h-auto">
           <span>
             Providing 
             <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> 
+              <span className="inline-block bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent"> 
                 <TypeAnimation
                   sequence={[
                     'Web Developer',
