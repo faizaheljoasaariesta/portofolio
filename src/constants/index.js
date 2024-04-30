@@ -17,27 +17,46 @@ import {
   docker,
   fablab,
   mesinIndonesia,
-  carrent,
-  jobit,
-  tripguide,
+  smeshub,
+  kmdts,
+  aditya,
+  setiawan,
+  marshafita,
+  marhaendra,
+  webMesinIndonesia,
+  webFablab,
+  webKmdts,
   firebase,
   instagramContact,
   linkedinContact,
   githubContact,
+  dbsExpert,
+  dbsIntermediate,
+  harisenin,
+  dicodingAws,
+  dicodingBackend,
+  dicodingDevops,
+  cyberscurity,
+  networking,
+  configuration,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "About",
+    id: "maintenance",
     title: "About",
   },
   {
-    id: "Experience",
+    id: "maintenance",
     title: "Experience",
   },
   {
-    id: "Skills",
+    id: "maintenance",
     title: "Skills",
+  },
+  {
+    id: "certificate",
+    title: "Certificate",
   },
 ];
 
@@ -140,98 +159,322 @@ const experiences = [
       "Contribute to the smoothness of achieving the target market by collaborating to create a professional company profile for the company.",
     ],
   },
+  {
+    title: "Consultants and Software Engineers Outsourcing",
+    company_name: "PT. Smeshub Bangun Negeri",
+    icon: smeshub,
+    iconBg: "#383E56",
+    date: "March 2023 - Septamber 2023",
+    points: [
+      "Providing services related to the importance of a website in developing a company profile.",
+      "Expert services in realizing the results of the consultation in the form of building a company profile website for startups.",
+      "Collaborating in providing services to MSME and startup actors in building professional companies that meet standards in providing the convenience of their clients.",
+    ],
+  },
+  {
+    title: "Front-End Developer Freelance",
+    company_name: "Keluarga Mahasiswa Departemen Teknik Sipil",
+    icon: kmdts,
+    iconBg: "#E6DEDD",
+    date: "April 2024 - Present",
+    points: [
+      "The website is optimized to display well on a variety of devices, including desktops, tablets, and smartphones. This will ensure user experience.",
+      "Design a layout and visual design that matches the organization's identity. An attractive design will increase visitor attraction and increase positive impressions about the organization.",
+      "Services are tailored to an organization's specific needs. We work closely with organizations to understand needs and provide solutions that suit the organization's vision and goals.",
+    ],
+  },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Faizahel proved me wrong.",
+    name: "Aditya Ramadhona",
+    designation: "CEO",
+    company: "Mesin Indonesia",
+    image: aditya,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Quality work performance, and friendly cooperation in continuing to update the company website.",
+    name: "Setiawan",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "FabLab Jogjakarta",
+    image: setiawan,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Communication skills are commendable. SMEsHub is a trusted partner for businesses seeking IT consultant.",
+    name: "Marshafita Syafitri",
+    designation: "BAM",
+    company: "SMEsHub",
+    image: marshafita,
+  },
+  {
+    testimonial:
+      "Very helpful in building a website that helps our organization, and determining the layout of beautiful website content",
+    name: "Marhaendra Adhi",
+    designation: "Leader",
+    company: "KMDTS - SV UGM",
+    image: marhaendra,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Web - Mesin Indonesia",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web company profile which aims to facilitate communication, equipped with a contact feature that can directly order the desired machine product, or simply provide a consultation.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: webMesinIndonesia,
+    source_code_link: "https://mesinindonesia.com/",
   },
   {
-    name: "Job IT",
+    name: "Web - Fablab Jogjakarta",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web company profile which is useful as a means of introducing the company's background by explaining several services and as a learning website for Public/MSMEs.",
     tags: [
       {
-        name: "react",
+        name: "WordPress",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "PageBuilder",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: webFablab,
+    source_code_link: "https://fablabjogja.ditpui.ugm.ac.id/",
   },
   {
-    name: "Trip Guide",
+    name: "Web - KMDTS SV UGM",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This organization's web profile is a formal communication tool for the general public, in understanding the organization's activities, and as a means of updating events being held.",
     tags: [
       {
-        name: "nextjs",
+        name: "WordPress",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PageBuilder",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: webKmdts,
+    source_code_link: "https://kmdts.sv.ugm.ac.id/",
+  },
+];
+
+const certificates = [
+  {
+    name: "Full-Stack Web Developer",
+    description:
+      "Bootcamp held at Harisenin.com with learning material on understanding components, styling, ERD/database, and several lessons related to Full-Stack Web Developer.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: harisenin,
+    source_code_link: "https://drive.google.com/file/d/1D9OigXffSw2moG6nNdRVSCoYvCLvqR0x/view?usp=sharing",
+  },
+  {
+    name: "DevOps Intermediate",
+    description:
+      "Training held by Bank DBS Foundation together with Dicoding which trains in integration specs and communication between other developers, thereby forming a stable ecosystem.",
+    tags: [
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Networking",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Linux System",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dbsIntermediate,
+    source_code_link: "https://drive.google.com/file/d/1xxur7sXGq5hrP_nEvH7MGuhLAwVvmSoe/view?usp=sharing",
+  },
+  {
+    name: "DevOps Engineer Expert",
+    description:
+      "This training also comes from the Bank DBS Foundation as an advanced class to become a DevOps Engineer Expert. In this training I became the best graduate on a national scale.",
+    tags: [
+      {
+        name: "CI/CD",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Microservice",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Monitoring",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dbsExpert,
+    source_code_link: "https://drive.google.com/file/d/1eNMA3qvEpm4cWHWevRYZVNrHWASPjWkF/view?usp=sharing",
+  },
+  {
+    name: "DevOps Basics",
+    description:
+      "This training is provided by Dicoding Indonesia as a learning class related to the basics and tools used in operating DevOps together and with one goal.",
+    tags: [
+      {
+        name: "Pipeline",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Workplace",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cloud",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dicodingDevops,
+    source_code_link: "https://drive.google.com/file/d/17EFEKBvaREeOfolsUEr-Nl5Bw4Qn6-GP/view?usp=sharing",
+  },
+  {
+    name: "Backend Web Developer",
+    description:
+      "This training was provided by Dicoding Indonesia as initial learning in understanding the concept of creating a Backend system and some of the risks involved.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Postman",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dicodingBackend,
+    source_code_link: "https://drive.google.com/file/d/1ZjVJtpJv5cwPhQKx4Dijlcy4UGqA0w6H/view?usp=sharing",
+  },
+  {
+    name: "Cloud Engineer AWS",
+    description:
+      "This training supports understanding of being a Backend Engineer. Systematic Cloud must and is necessary in understanding and placing the database to be created.",
+    tags: [
+      {
+        name: "DynamoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CloudWatch",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Snow Family",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dicodingAws,
+    source_code_link: "https://drive.google.com/file/d/1BdtHHvRzwmUp4FlWbp7DdFG8TYhSBTPj/view?usp=sharing",
+  },
+  {
+    name: "Introduction Cyberscurity",
+    description:
+      "The certification issued by Cisco Academy in understanding cyber security which can secure and maintain a website from hacking or malware that endangers its database.",
+    tags: [
+      {
+        name: "Authentication",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Encryption",
+        color: "green-text-gradient",
+      },
+      {
+        name: "BackUp",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cyberscurity,
+    source_code_link: "https://drive.google.com/file/d/1IosQumpcRGQWgY2OvJPjkKPfHBjqaicY/view?usp=sharing",
+  },
+  {
+    name: "Networking Basics",
+    description:
+      "The certification issued by Cisco Academy in understanding a network that is used for communication between several computers in the same or different places.",
+    tags: [
+      {
+        name: "Protocol",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Routing",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Testing",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: networking,
+    source_code_link: "https://drive.google.com/file/d/1vRh9TGX0Gj6BIxdUtwcNZ9pfWpheIvSG/view?usp=sharing",
+  },
+  {
+    name: "Initial Configuration",
+    description:
+      "The certification issued by Cisco Academy in the application of previous training is in the form of several initial configurations, process of configuring a system through a network.",
+    tags: [
+      {
+        name: "Webster",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Configure",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ICMP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: configuration,
+    source_code_link: "https://drive.google.com/file/d/1Qq3CAFozeK5tOewwY8eLB7yaQ7NLLoU_/view?usp=sharing",
   },
 ];
 
@@ -253,4 +496,4 @@ const socials = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, socials };
+export { services, technologies, experiences, testimonials, projects, certificates, socials };

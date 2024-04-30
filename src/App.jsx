@@ -1,30 +1,17 @@
-import { BrowserRouter } from "react-router-dom"
-
-import {
-  Hero,
-  About,
-  Experience,
-  Navbar,
-  Tech,
-  Project,
-  Footer,
-} from "./components"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import Certificates from "./pages/Certificates"
+import Maintenance from "./pages/Maintenance"
 
 const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary overflow-y-scroll overflow-x-hidden">
-        <div className=''>
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Project />
-        <Tech />
-        <Footer />
-      </div>
+      <Routes>
+        <Route path="/portofolio" element={<Home />} />
+        <Route path="/portofolio/certificate" element={<Certificates />} />
+        <Route path="/portofolio/maintenance" element={<Maintenance />} />
+      </Routes>
     </BrowserRouter>
   )
 }

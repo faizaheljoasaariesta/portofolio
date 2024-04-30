@@ -3,6 +3,8 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import webIcon from "./webIcon.png";
+import certificateIcon from "./certificate.png"
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -27,13 +29,30 @@ import firebase from "./tech/firebase.png";
 
 import fablab from "./company/fablab.png"
 import mesinIndonesia from "./company/mesinIndonesia.png"
+import smeshub from "./company/smeshub.svg"
+import kmdts from "./company/kmdts.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import aditya from "./feedback/aditya.jpeg"
+import setiawan from "./feedback/setiawan.jpeg"
+import marshafita from "./feedback/marshafita.jpeg"
+import marhaendra from "./feedback/marhaendra.png"
 
-import blackHole from "./webm/blackhole.webm";
-import techVideo from "./webm/techVideo.webm";
+import webMesinIndonesia from "./working/mesinIndonesia.png"
+import webFablab from "./working/fablab.png"
+import webKmdts from "./working/kmdts.png"
+
+import blackHole from "./webm/blackhole.webm"
+import techVideo from "./webm/techVideo.webm"
+
+import dbsExpert from "./certificates/devops-dbs-expert.jpg"
+import dbsIntermediate from "./certificates/devops-dbs-intermediate.jpg"
+import dicodingBackend from "./certificates/dicoding-backend.jpg"
+import dicodingDevops from "./certificates/dicoding-devops.jpg"
+import dicodingAws from "./certificates/dicoding-aws.jpg"
+import harisenin from "./certificates/harisenin.jpg"
+import cyberscurity from "./certificates/cyberscurity.jpg"
+import networking from "./certificates/networking.jpg"
+import configuration from "./certificates/configuration.jpg"
 
 export {
   logo,
@@ -41,6 +60,8 @@ export {
   creator,
   mobile,
   web,
+  webIcon,
+  certificateIcon,
   github,
   menu,
   close,
@@ -63,9 +84,24 @@ export {
   typescript,
   fablab,
   mesinIndonesia,
-  carrent,
-  jobit,
-  tripguide,
+  smeshub,
+  kmdts,
   blackHole,
   techVideo,
+  aditya,
+  setiawan,
+  marshafita,
+  marhaendra,
+  webMesinIndonesia,
+  webFablab,
+  webKmdts,
+  dbsExpert,
+  dbsIntermediate,
+  dicodingDevops,
+  dicodingBackend,
+  dicodingAws,
+  harisenin,
+  cyberscurity,
+  networking,
+  configuration,
 };

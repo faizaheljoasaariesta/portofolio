@@ -45,8 +45,6 @@ const AutonomusCanvas = () => {
 
   }, [])
 
-
-
   return (
     <Canvas
       frameloop="demand"

@@ -8,6 +8,9 @@ import Works from './Works';
 import Project from './Project';
 import Contact from './Contact';
 import Footer from './Footer';
+import Feedback from './Feedback';
+import Certificate from './Certificate';
+import Maintenance from './Maintenance';
 
 export {
   Hero,
@@ -16,11 +19,14 @@ export {
   Tech,
   Experience,
   Footer,
+  Feedback,
   Works,
   Project,
   Contact,
   EarthCanvas, 
   BallCanvas, 
   AutonumusCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Certificate,
+  Maintenance,
 }

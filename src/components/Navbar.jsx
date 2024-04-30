@@ -15,7 +15,7 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center mx-auto">
         <Link
-          to="/"
+          to="/portofolio/"
           className="flex items-center gap-2"
           onClick={() => {
             setActive("")
@@ -43,7 +43,15 @@ const Navbar = () => {
               } hover:text-white transition duration-300 ease-in-out text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <Link
+                to={`/portofolio/${link.id}`}
+                onClick={() => {
+                  setActive("")
+                  window.scrollTo(0, 0)
+                }}
+              >
+                {link.title}
+              </Link>
             </li>
           ))}
         </ul>
@@ -106,7 +114,11 @@ const Navbar = () => {
                     setActive(link.title)
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <Link
+                    to={`/portofolio/${link.id}`}
+                  >
+                    {link.title}
+                  </Link>
                 </li>
               ))}
             </ul>

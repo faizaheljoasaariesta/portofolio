@@ -51,7 +51,7 @@ const Footer = () => {
             <h1 className={styles.sectionSubText}>Faizahel Joasa Ariesta</h1>
           </div>
           <p>Connect now, to make your work and relationships easier with us in contributing to building professional projects. You can get projects related to the Internet of Things, Machine Learning, and Website.</p>
-          <div className="hidden sm:flex flex-row gap-5">
+          <div className="flex flex-row gap-5">
             {socials.map((socials) => (
               <a href={socials.link} key={socials.name}>
                 <img 
