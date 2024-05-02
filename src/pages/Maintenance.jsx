@@ -5,10 +5,8 @@ import {
 
 const Maintenances = () => {
   return (
-    <div className="relative z-0 bg-primary overflow-y-scroll overflow-x-hidden">
-      <div>
-        <Navbar />
-      </div>
+    <div className="relative z-0 bg-primary overflow-x-hidden">
+      <Navbar />
       <Maintenance />
     </div>
   )

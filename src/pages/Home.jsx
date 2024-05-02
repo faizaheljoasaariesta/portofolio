@@ -12,7 +12,7 @@ import {
 
 const Home = () => {
   return (
-    <div className="relative z-0 bg-primary overflow-y-scroll overflow-x-hidden">
+    <div className="relative z-0 bg-primary overflow-x-hidden">
       <div>
         <Navbar />
         <Hero />

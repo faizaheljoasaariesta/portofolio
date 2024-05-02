@@ -1,16 +1,18 @@
 import { 
-  Certificate,
+  Contact,
   Navbar,
   Footer,
+  StarsCanvas
 } from "../components"
 
 const Certificates = () => {
   return (
     <div className="relative z-0 bg-primary overflow-x-hidden">
-      <div>
-        <Navbar />
+      <Navbar />
+      <div className='relative z-0'>
+        <Contact />
+        <StarsCanvas />
       </div>
-      <Certificate />
       <Footer />
     </div>
   )
