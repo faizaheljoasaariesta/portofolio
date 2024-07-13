@@ -31,6 +31,8 @@ import fablab from "./company/fablab.png"
 import mesinIndonesia from "./company/mesinIndonesia.png"
 import smeshub from "./company/smeshub.svg"
 import kmdts from "./company/kmdts.png"
+import arteri from "./company/arteri.png"
+import ptdi from "./company/ptdi.png"
 
 import aditya from "./feedback/aditya.jpeg"
 import setiawan from "./feedback/setiawan.jpeg"
@@ -53,6 +55,16 @@ import harisenin from "./certificates/harisenin.jpg"
 import cyberscurity from "./certificates/cyberscurity.jpg"
 import networking from "./certificates/networking.jpg"
 import configuration from "./certificates/configuration.jpg"
+
+import robotLine from "./working/robotLineWall.jpeg"
+import motorDC from "./working/motorDC.jpeg"
+import smartGarden from "./working/smartGarden.jpeg"
+import audio from "./working/audio.jpeg"
+import cicd from "./working/cicd.png"
+import microservice from "./working/microservice.png"
+import autonomus from "./working/autonomus.jpeg"
+import webots from "./working/webots.png"
+import armRobot from "./working/armRobot.png"
 
 export {
   logo,
@@ -86,6 +98,8 @@ export {
   mesinIndonesia,
   smeshub,
   kmdts,
+  arteri,
+  ptdi,
   blackHole,
   techVideo,
   aditya,
@@ -104,4 +118,13 @@ export {
   cyberscurity,
   networking,
   configuration,
+  robotLine,
+  motorDC,
+  smartGarden,
+  audio,
+  cicd,
+  microservice,
+  autonomus,
+  webots,
+  armRobot,
 };

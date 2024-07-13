@@ -39,12 +39,27 @@ import {
   cyberscurity,
   networking,
   configuration,
+  arteri,
+  ptdi,
+  smartGarden,
+  motorDC,
+  robotLine,
+  audio,
+  cicd,
+  microservice,
+  autonomus,
+  webots,
+  armRobot,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "maintenance",
     title: "About",
+  },
+  {
+    id: "project",
+    title: "Project",
   },
   {
     id: "certificate",
@@ -172,11 +187,39 @@ const experiences = [
     company_name: "Keluarga Mahasiswa Departemen Teknik Sipil",
     icon: kmdts,
     iconBg: "#E6DEDD",
-    date: "April 2024 - Present",
+    date: "April 2024 - May 2024",
     points: [
       "The website is optimized to display well on a variety of devices, including desktops, tablets, and smartphones. This will ensure user experience.",
       "Design a layout and visual design that matches the organization's identity. An attractive design will increase visitor attraction and increase positive impressions about the organization.",
       "Services are tailored to an organization's specific needs. We work closely with organizations to understand needs and provide solutions that suit the organization's vision and goals.",
+    ],
+  },
+  {
+    title: "Mobile Developer React-Native Freelance",
+    company_name: "Arteri PKM-KC UGM 2024",
+    icon: arteri,
+    iconBg: "#383E56",
+    date: "May 2024 - July 2024",
+    points: [
+      "Developed and maintained mobile applications using React Native, ensuring cross-platform compatibility and a seamless user experience.",
+      "Collaborated closely with the design team to implement UI/UX designs, improving user engagement and satisfaction.",
+      "Integrated third-party APIs and services, enhancing app functionality and performance.",
+    ],
+  },
+  {
+    title: "Flight and Aircraft Test Intern",
+    company_name: "PT. Indonesian Aerospace (IAe Persero)",
+    icon: ptdi,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - Present",
+    points: [
+      "Upgraded the automatic tracking system for antenna towers to accurately determine aircraft positions using data from ADS-B devices.",
+      "Converted raw ADS-B data into JSON format for further processing and integration into the tracking system.",
+      "Developed a web-based dashboard for real-time monitoring and control of the tracking antenna tower, enhancing operational efficiency.",
+      "Utilized microcontrollers to implement precise control mechanisms for the antenna tower's tracking system.",
+      "Collaborated with the engineering team to ensure the system's reliability and accuracy in various testing scenarios.",
+      "Conducted thorough testing and validation of the upgraded tracking system to ensure it meets industry standards and safety regulations.",
+      "Provided documentation and training for the usage and maintenance of the new tracking system to support operational teams."
     ],
   },
 ];
@@ -492,4 +535,196 @@ const socials = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, certificates, socials };
+const myProject = [
+  {
+    name: "Smart Garden Project: Enhancing Chili Plant Growth Rate",
+    description:
+      "The Smart Garden ProjectEnhancing Chili Plant Growth Rate focuses on leveraging advanced technology to optimize the growth conditions for chili plants.",
+    tags: [
+      {
+        name: "ESP32",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DHT22",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Soil Moisture Sensor",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: smartGarden,
+    source_code_link: "https://drive.google.com/file/d/12srKk-mrT3G8tLKalaDiFzX32Oc9uIIE/view?usp=sharing",
+  },
+  {
+    name: "DC Motor Control Project: Directional Control, PWM Setting, and Monitoring",
+    description:
+    "The DC Motor Control Project: Directional Control, PWM Setting, and Data Monitoring focuses on developing a comprehensive system for managing DC motors using a PCB setup.",
+    tags: [
+      {
+        name: "ESP32",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dashboard",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Wonderware InTouch",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: motorDC,
+    source_code_link: "https://drive.google.com/file/d/1IqtLO1wZVMt-_xHLGTl15vUfZezke69h/view?usp=sharing",
+  },
+  {
+    name: "Line Follower and Wall Follower Robot Project: Precision PID",
+    description:
+    "The Line Follower and Wall Follower Robot Project: Navigating with Precision develops an autonomous robot that can follow lines and walls using advanced sensors.",
+    tags: [
+      {
+        name: "Infra-red",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ultrasonic",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PID Controller",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: robotLine,
+    source_code_link: "https://drive.google.com/file/d/1FuqZVRPbYf9_AMxYbbDDqkkWz2CKL0PG/view?usp=sharing",
+  },
+  {
+    name: "Audio Frequency Filtering Project: Utilizing MAX 9814 Module with Python",
+    description:
+    "The Audio Frequency Filtering Project: Utilizing MAX 9814 Module with Python Programming develops an audio filtering system using the MAX 9814 microphone.",
+    tags: [
+      {
+        name: "MAX 9814",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Arduino Uno",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python Filter IIR",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: audio,
+    source_code_link: "https://drive.google.com/file/d/1_sf4LW2NQqXjMm1G1-yggkORdMXUd4ta/view?usp=sharing",
+  },
+  {
+    name: "Building a CI/CD Pipeline with Jenkins Project and Grafana Monitoring",
+    description:
+    "The Building a CI/CD Pipeline with Jenkins Project focuses on developing a continuous integration and continuous deployment (CI/CD) pipeline using Jenkins.",
+    tags: [
+      {
+        name: "Prometheus",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Jenkins",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Grafana Dashboard",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cicd,
+    source_code_link: "https://drive.google.com/drive/folders/1r4fb7j5ucuXcO_pP7hUS8BKZUobe3cSE?usp=sharing",
+  },
+  {
+    name: "Deploying Karsa Jobs Application with Kubernetes Project",
+    description:
+    "The Deploying Karsa Jobs Application with Kubernetes Project focuses on deploying the Karsa Jobs application using Kubernetes. So leverages Kubernetes' container orchestration",
+    tags: [
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Grafana Dashboard",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: microservice,
+    source_code_link: "https://drive.google.com/drive/folders/1yeS3E1EJcIpT7YVcoFHd73cyo4NPLjkT?usp=sharing",
+  },
+  {
+    name: "The Autonomous Vehicles with ML and Open Computer Vision",
+    description:
+    "The Autonomous Vehicles with Machine Learning and Open Computer Vision Project focuses on developing self-driving vehicles using advanced machine learning algorithms.",
+    tags: [
+      {
+        name: "Jetson",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Open CV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Arduino Nano",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: autonomus,
+    source_code_link: "https://drive.google.com/file/d/1ZFdzVD_xTWiOBMKxkDX6dhtjyQbGwIOf/view?usp=sharing",
+  },
+  {
+    name: "Line/Wall Follower Robot Simulation Project Using Webots with IR/Generic",
+    description:
+    "The Line Follower Robot Simulation Project Using Webots with IR Distance focuses on developing a simulation of a line-following robot using the Webots robotics simulation software.",
+    tags: [
+      {
+        name: "Webots",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Fusion 360",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C/C++ Language",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webots,
+    source_code_link: "https://drive.google.com/file/d/1gRjlhv9JgsM8x7Jkc4Dg-iavaatzHn-s/view?usp=sharing",
+  },
+  {
+    name: "3D Design of Robotic Arm Using SolidWorks Project with Real Dimensions",
+    description:
+    "The 3D Design of Robotic Arm Using SolidWorks Project focuses on creating a detailed and functional 3D model of a robotic arm using SolidWorks and Mathematics Ruler.",
+    tags: [
+      {
+        name: "Solidworks",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GrabCAD",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mathematics Ruler",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: armRobot,
+    source_code_link: "https://drive.google.com/file/d/1cGwvl8lN_BEveX3-y0rm6C168rD27Dk9/view?usp=sharing",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, certificates, socials, myProject };

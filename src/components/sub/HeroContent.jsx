@@ -54,9 +54,12 @@ const HeroContent = () => {
           I&apos;m a Full-Stack Software and Instrumentation Control Engineer. With experiance in Website Development, Programmable Logic Controller, Internet of Things System, and Microcontroller,  Check out my skill. 
         </p>
 
-        <a className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
+        <div
+          onClick={() => window.open("https://www.fiverr.com/faizahel/development-website-using-next-js-and-microservice-architecture", "_blank")}
+          className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
+        >
           Checkout Now!
-        </a>
+        </div>
       </div>
 
       <div className="w-full h-full hidden sm:flex justify-center items-center">

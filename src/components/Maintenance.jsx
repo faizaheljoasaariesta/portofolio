@@ -50,7 +50,7 @@ const LottieAnimation = () => {
   )
 }
 
-const Certificates = () => {
+const Maintenance = () => {
   return (
     <div className='flex flex-col h-screen justify-center'>
       <LottieAnimation />
@@ -63,4 +63,4 @@ const Certificates = () => {
   );
 };
 
-export default SectionWrapper(Certificates, "");
+export default SectionWrapper(Maintenance, "");

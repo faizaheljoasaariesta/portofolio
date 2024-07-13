@@ -5,7 +5,7 @@ import {
   StarsCanvas
 } from "../components"
 
-const Certificates = () => {
+const Contacts = () => {
   return (
     <div className="relative z-0 bg-primary overflow-x-hidden">
       <Navbar />
@@ -18,4 +18,4 @@ const Certificates = () => {
   )
 }
 
-export default Certificates
+export default Contacts

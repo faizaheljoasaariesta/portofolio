@@ -11,6 +11,8 @@ import Footer from './Footer';
 import Feedback from './Feedback';
 import Certificate from './Certificate';
 import Maintenance from './Maintenance';
+import ProjectExperience from './ProjectExperience';
+import ProjectExperienceHeader from './projectExperienceHeader';
 
 export {
   Hero,
@@ -29,4 +31,6 @@ export {
   StarsCanvas,
   Certificate,
   Maintenance,
+  ProjectExperience,
+  ProjectExperienceHeader,
 }

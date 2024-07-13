@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import Certificates from "./pages/Certificates"
 import Maintenance from "./pages/Maintenance"
 import Contact from "./pages/Contact"
+import Project from "./pages/Project"
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/portofolio/contact" element={<Contact />} />
         <Route path="/portofolio/certificate" element={<Certificates />} />
         <Route path="/portofolio/maintenance" element={<Maintenance />} />
+        <Route path="/portofolio/project" element={<Project />} />
       </Routes>
     </BrowserRouter>
   )

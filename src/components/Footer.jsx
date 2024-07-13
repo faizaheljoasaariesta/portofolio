@@ -3,6 +3,7 @@ import { logo } from "../assets"
 import { styles } from "../style"
 import { socials } from '../constants'
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Map = ({ isMobile }) => {
   return (
@@ -70,10 +71,10 @@ const Footer = () => {
         <div className="flex flex-col mt-2 w-auto gap-10">
           <h1 className={styles.sectionSubText}>Link</h1>
           <div className="flex flex-col gap-5 items-start">
-            <a href="#">Home</a>
-            <a href="#About">About</a>
-            <a href="#Experience">Experiance</a>
-            <a href="#Skills">Skills</a>
+            <Link to={`/portofolio/`} onClick={() => {window.scrollTo(0, 0)}}>Home</Link>
+            <Link to={`/portofolio/maintenance`} onClick={() => {window.scrollTo(0, 0)}}>About</Link>
+            <Link to={`/portofolio/project`} onClick={() => {window.scrollTo(0, 0)}}>Project</Link>
+            <Link to={`/portofolio/certificate`} onClick={() => {window.scrollTo(0, 0)}}>Certificate</Link>
           </div>
         </div>
 
@@ -81,8 +82,8 @@ const Footer = () => {
           <h1 className={styles.sectionSubText}>Location</h1>
           <div className="flex flex-col gap-5">
             <p>Asrama Putra <br /> Bright Scholarship Batch 7 & 8 <br /> Yogyakarta Indonesia</p>
-            <p>faizaheljoasaariesta@gmail.com</p>
-            <p>+62 821-2715-7135</p>
+            <p onClick={() => window.open("mailto:faizaheljoasaariesta@gmail.com", "_blank")} className="cursor-pointer">faizaheljoasaariesta@gmail.com</p>
+            <p onClick={() => window.open("https://wa.me/6282137157135", "_blank")} className="cursor-pointer">+62 821-2715-7135</p>
           </div>
         </div>
         <div>
