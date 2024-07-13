@@ -1,0 +1,11 @@
+Model Information:
+* title:	Antena
+* source:	https://sketchfab.com/3d-models/antena-dfc0e6e423b34c3f923124a1bf6aa1a8
+* author:	Matheus.Filipe (https://sketchfab.com/Matheus.Filipe)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Antena" (https://sketchfab.com/3d-models/antena-dfc0e6e423b34c3f923124a1bf6aa1a8) by Matheus.Filipe (https://sketchfab.com/Matheus.Filipe) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
