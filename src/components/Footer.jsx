@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Map = ({ isMobile }) => {
   return (
     <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63245.70384045102!2d110.35957158320616!3d-7.805013386129935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57dbf97b4221%3A0x4242c4b75534afd5!2sAsrama%20Putra%20Bright%20Scholarship%207-8%20Yogyakarta!5e0!3m2!1sen!2sid!4v1713863496596!5m2!1sen!2sid&theme=dark"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.2803424707704!2d110.3916576!3d-7.760064199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59a5eb4a5adf%3A0x42ac7e8a04ac99c5!2sGg.%20Legi%20No.22%2C%20Candok%2C%20Condongcatur%2C%20Kec.%20Depok%2C%20Kabupaten%20Sleman%2C%20Daerah%20Istimewa%20Yogyakarta%2055281!5e0!3m2!1sid!2sid!4v1721860018161!5m2!1sid!2sid&theme=dark"
       allowFullScreen
       width={isMobile ? '100%' : '400px'}
       height="100%"
@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="flex flex-col mt-2 w-auto gap-10">
           <h1 className={styles.sectionSubText}>Location</h1>
           <div className="flex flex-col gap-5">
-            <p>Asrama Putra <br /> Bright Scholarship Batch 7 & 8 <br /> Yogyakarta Indonesia</p>
+            <p>Gg. Legi No.22, Candok, <br /> Condongcatur, Kec. Depok, <br /> Kabupaten Sleman, 55281 <br /> Yogyakarta Indonesia</p>
             <p onClick={() => window.open("mailto:faizaheljoasaariesta@gmail.com", "_blank")} className="cursor-pointer">faizaheljoasaariesta@gmail.com</p>
             <p onClick={() => window.open("https://wa.me/6282137157135", "_blank")} className="cursor-pointer">+62 821-2715-7135</p>
           </div>
